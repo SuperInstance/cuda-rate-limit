@@ -1,0 +1,8 @@
+[package]
+name = "cuda-rate-limit"
+version = "0.1.0"
+edition = "2021"
+description = "Rate limiting — token bucket, sliding window, per-agent quotas, backpressure, and flow control for agent communication"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
